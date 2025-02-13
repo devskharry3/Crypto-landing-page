@@ -1,6 +1,4 @@
-module.exports = {
-  plugins: {
-    '@tailwindcss/postcss': {},  // Ensure this is correctly listed
-    autoprefixer: {},
-  },
+export const plugins = {
+  '@tailwindcss/postcss': {}, // Ensure this is correctly listed
+  autoprefixer: {},
 };
